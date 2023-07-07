@@ -8,7 +8,7 @@ function Content(props)
 
     if(!props.isAuthenticated)
     {
-        navigate("/home");
+        navigate("/");
     }
 
     return (<div>
