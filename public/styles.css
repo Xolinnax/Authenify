@@ -1,0 +1,140 @@
+html
+{
+    background-color: #4F4557;
+}
+
+/*---------------------------Home-----------------------------*/
+
+.HomeDiv
+{
+    margin-top:23vh;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.Home
+{
+    height:60vh;
+    border-radius:10px;
+    background-color:#4F4557;
+    width:23vw;
+    margin:0;
+    text-align: center;
+}
+
+.homeItem
+{
+    width:100%;
+}   
+
+.TitleText
+{
+    font-family: 'Rubik', sans-serif;
+    font-size:3rem;
+    color:white;
+    padding-top:9vh;
+}
+
+.navigationItem
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight:medium;
+    font-size:1.2rem;
+    color:#6D5D6E;
+    border-radius: 10px;
+    display:inline-block;
+    padding:12px;
+    width:auto;
+    background-color: rgb(209, 205, 205);
+    transition:0.5s;
+}
+
+.navigationItem:hover
+{
+    cursor:pointer;
+    background-color: white;
+}
+
+.Register
+{
+    margin-top:7vh;
+}
+
+/*--------------------------Log/Reg----------------------------*/
+
+.logRegDiv
+{
+    font-family: 'Rubik', sans-serif;
+    padding:20px;
+    text-align:center;
+    margin-top:28vh;
+    margin-left:40%;
+    margin-right:40%;
+    width:20%;
+    background-color: #F4EEE0;
+    border-radius:10px;
+}
+
+.logRegText
+{
+    font-size: 40px;
+    padding-bottom:1.5vh;
+    text-decoration: underline;
+}
+
+.textInput
+{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.labels
+{
+    width:100%;
+    font-size:20px;
+}
+
+.inputs
+{
+    background-color:#f6f3ee ;
+    padding:3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:medium;
+    margin:10px;
+    font-size:15px;
+    margin-left:20%;
+    margin-right:20%;
+    border-radius: 10px;
+    width:100%;
+    text-align: center;
+}
+
+.submitButton
+{   
+    margin-top:2vh;
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    background-color: #6D5D6E;
+    color:#F4EEE0;
+    border-radius: 10px;
+    padding:7px;
+}
+
+.submitButton:hover
+{
+    cursor: pointer;
+}
+
+.content
+{   
+    font-family: 'Rubik', sans-serif;
+    margin-left:25%;
+    margin-right:25%;
+    width:50%;
+    margin-top:45vh;
+    text-align: center;
+    color:white;
+}
